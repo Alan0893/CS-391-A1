@@ -33,6 +33,18 @@ main {
 	text-decoration: none;
 	color: rgb(226, 231, 255);
 }
+.icons a {
+	text-decoration: none;
+}
+.icons i {
+	font-size: 24px;
+	margin-top: 10px;
+	padding: 0 5px;
+	color: rgb(211, 212, 255);
+}
+.icons i:hover {
+	color: rgb(175, 176, 252)
+}
 
 /* ------------------------------------------------------------------ */
 /* c. Main - Experience - Image
