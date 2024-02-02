@@ -1,0 +1,43 @@
+/* ------------------------------------------------------------------ */
+/* a. Main - Experience
+/* ------------------------------------------------------------------ */
+main {
+	text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* b. Main - Experience - Text
+/* ------------------------------------------------------------------ */
+.hLink,
+.hLink:visited,
+.hLink:hover,
+.hLink:focus,
+.hLink:active {
+	text-decoration: none;
+	color: rgb(211, 212, 255);
+}
+.proj_container .desc {
+	font-size: calc(13px + 0.390625vw);
+	margin: 10px 30px;
+	color: rgb(224, 224, 224);
+}
+.proj_container .classes {
+	color: rgb(216, 216, 216);
+	margin: 5px 0 10px;
+}
+.links,
+.links:visited,
+.links:hover,
+.links:focus,
+.links:active {
+	text-decoration: none;
+	color: rgb(226, 231, 255);
+}
+
+/* ------------------------------------------------------------------ */
+/* c. Main - Experience - Image
+/* ------------------------------------------------------------------ */
+.logo {
+	width: 75px;
+	margin-top: 20px;
+}

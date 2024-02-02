@@ -1,0 +1,46 @@
+/* ------------------------------------------------------------------ */
+/* b. Main - Education
+/* ------------------------------------------------------------------ */
+main {
+	text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* b. Main - Experience - Text
+/* ------------------------------------------------------------------ */
+.skills_container {
+	margin-bottom: 25px;
+}
+.skills_container h4 {
+	color: rgb(149, 244, 255);
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+.lang button,
+.soft button {
+	background-color: #eee;
+	border: none;
+	color: black;
+	padding: 5px 10px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 2px auto auto;
+	cursor: pointer;
+	border-radius: 16px;
+}
+.lang button:hover,
+.soft button:hover {
+	background-image: linear-gradient(90deg, #96e8ff, #61ddff);
+}
+.lang button span,
+.soft button span {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. Main - Experience - Image
+/* ------------------------------------------------------------------ */
+.lang button img {
+	max-height: 20px;
+}
