@@ -121,7 +121,7 @@ main {
     width: 100%;
     background-color: #006c8a;
 }
-.page_title {
+.page-title {
     text-align: center;
     margin-top: 30px;
     color: white;
@@ -137,30 +137,30 @@ footer {
 	text-align: left;
 	padding: 45px 50px;
 }
-footer .footer_left p {
+footer .footer-left p {
 	color: white;
 	font-size: calc(12px + 0.390625vw);
 	margin: 0;
 }
-footer p.footer_links {
+footer p.footer-links {
 	font-size: calc(13px + 0.390625vw);
 	font-weight: bold;
 	color: white;
 	margin: 0 0 10px;
 	padding: 0;
 }
-footer p.footer_links a {
+footer p.footer-links a {
 	text-decoration: none;
 	color: inherit;
 }
-footer .footer_links #link:before {
+footer .footer-links #link:before {
 	content: none;
 }
-footer .footer_right {
+footer .footer-right {
 	float: right;
 	max-width: 180px;
 }
-footer .footer_right a {
+footer .footer-right a {
 	display: inline-grid;
 	width: 35px;
 	height: 35px;
@@ -171,9 +171,9 @@ footer .footer_right a {
 	place-items: center;
 	text-decoration: none;
 }
-footer .footer_right a:hover {
+footer .footer-right a:hover {
 	background-color: #0080a4;
 }
-footer p.footer_links a:hover {
+footer p.footer-links a:hover {
 	text-decoration: underline;
 }

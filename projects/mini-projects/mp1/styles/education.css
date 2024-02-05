@@ -14,13 +14,13 @@ main {
 .fhhs {
 	color: rgb(211, 218, 255);
 }
-.edu_container .class_list {
+.edu-container .class-list {
 	font-size: calc(13px + 0.390625vw);
 	margin-top: 10px;
 	text-decoration: underline;
 	color: rgb(224, 224, 224);
 }
-.edu_container .classes {
+.edu-container .classes {
 	color: rgb(216, 216, 216);
 	margin: 5px 0 10px;
 }
@@ -28,7 +28,7 @@ main {
 /* ------------------------------------------------------------------ */
 /* c. Main - Education - Image
 /* ------------------------------------------------------------------ */
-.edu_img {
+.edu-img {
 	max-width: 135px; 
 	margin-top: 20px;
 }

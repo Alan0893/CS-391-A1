@@ -14,12 +14,12 @@ main {
 .star {
 	color: rgb(214, 255, 211);
 }
-.exp_container .desc {
+.exp-container .desc {
 	font-size: calc(13px + 0.390625vw);
 	margin: 10px 30px 10px;
 	color: rgb(224, 224, 224);
 }
-.exp_container .classes {
+.exp-container .classes {
 	color: rgb(216, 216, 216);
 	margin: 5px 0 10px;
 }

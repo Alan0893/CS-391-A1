@@ -8,10 +8,10 @@ main {
 /* ------------------------------------------------------------------ */
 /* b. Main - Skills - Text
 /* ------------------------------------------------------------------ */
-.skills_container {
+.skills-container {
 	margin-bottom: 25px;
 }
-.skills_container h4 {
+.skills-container h4 {
 	color: rgb(149, 244, 255);
 	margin-top: 15px;
 	text-transform: uppercase;

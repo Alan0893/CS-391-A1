@@ -1,12 +1,12 @@
 /* ------------------------------------------------------------------ */
 /* a. Main - Home
 /* ------------------------------------------------------------------ */
-#home_img {
+#home-img {
     display: block;
     margin: auto;
     max-width: 50%;
 }
-#home_desc {
+#home-desc {
     text-align: center;
     color: white;
     margin: 0 30px 30px;
@@ -14,12 +14,12 @@
 
 /* MEDIA QUERY - screen bigger than 750px */
 @media only screen and (min-width: 751px) {
-    #home_img {
+    #home-img {
         display: inline-block;
         vertical-align: top;
         margin-left: 15px;
     }
-    #home_desc {
+    #home-desc {
         display: inline-block;
         width: 40%;
         margin: 30px -50px 0 0;

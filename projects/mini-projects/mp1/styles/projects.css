@@ -16,12 +16,12 @@ main {
 	text-decoration: none;
 	color: rgb(211, 212, 255);
 }
-.proj_container .desc {
+.proj-container .desc {
 	font-size: calc(13px + 0.390625vw);
 	margin: 10px 30px;
 	color: rgb(224, 224, 224);
 }
-.proj_container .classes {
+.proj-container .classes {
 	color: rgb(216, 216, 216);
 	margin: 5px 0 10px;
 }
@@ -52,4 +52,59 @@ main {
 .logo {
 	width: 75px;
 	margin-top: 20px;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. Main - Projects - Calculator
+/* ------------------------------------------------------------------ */
+@keyframes flowColor {
+	0% {
+		background-position: 0% 0%;
+	}	100% {
+		background-position: 100% 100%;
+	}
+}
+#calc {
+	background: rgb(106,131,255);
+	background: radial-gradient(circle, rgba(106,131,255,1) 0%, rgba(0,108,138,1) 100%);
+	animation: flowColor 5s infinite alternate;
+}
+#calc #label {
+	margin-top: 10px;
+}
+#calc #label input {
+  text-align: center; 
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#calc #label input::placeholder {
+  text-align: center;
+}
+
+button {
+	margin-bottom: 10px;
+}
+button:hover {
+	background-color: rgb(146, 164, 255);
+	color: white;
+}
+#first-number,
+#second-number {
+	border-radius: 25px;
+	padding: 5px;
+	margin-top: 5px;
+}
+button {
+	border-radius: 30px;
+	padding: 6px;
+	text-align: center;
+	margin-top: 10px;
+}
+label {
+	color: white;
+}
+#output {
+	color: white;
+	margin-bottom: 10px;
 }
