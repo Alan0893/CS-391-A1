@@ -1,20 +1,25 @@
-.Backlog-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin: 5%;
-}
+import Task from '../../components/Task/Task';
+import useDataFetching from '../../hooks/useDataFetching';
+import './Backlog.css';
 
-.Backlog-wrapper h2 {
-    width: 100%;
-    padding-bottom: 10px;
-    text-align: center;
-    border-bottom: 1px solid darkGray;
-}
+function Backlog() {
+    const [loading, error, tasks] = useDataFetching(
+        'https://my-json-server.typicode.com/PacktPublishing/React-Projects-Second-Edition/tasks',
+    );
 
-.Tasks-wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 5%;
+    return (
+        <div className='Backlog-wrapper'>
+            <h2>Backlog</h2>
+            <div className='Tasks-wrapper'>
+                {loading || error ? (
+                    <span>{error || 'Loading...'}</span>
+                ) : (
+                    tasks.map((task) => (
+                        <Task key={task.id} title={task.title} body={task.body} />
+                    ))
+                )}
+            </div>
+        </div>
+    );
 }
+export default Backlog;
